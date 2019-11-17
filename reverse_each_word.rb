@@ -1,4 +1,3 @@
-# def reverse_each_word(sent)
 #   sent_array = sentence.split(" ")
 #   rev_array = []
   
@@ -13,9 +12,9 @@ def reverse_each_word(sentence)
   #First solve it using .each Then write the same method using .collect to see the difference.
   #turn the string into an array
   #.reverse reverses an array
-  original_array = sentence.split(" ")
+  start_array = sentence.split(" ")
   return_array = []
-  original_array.each do |word|
+  start_array.each do |word|
     return_array << word.reverse
   end
   return_array.join(" ")
