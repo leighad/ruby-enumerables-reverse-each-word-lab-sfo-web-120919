@@ -20,7 +20,7 @@ def reverse_each_word(sentence)
   
   new_array = sentence.split(" ")
   rev_sentence = new_array.each { |word| word.reverse }
-  # rev_sentence
+  rev_sentence
   # rev_sentence.each  
   # rev_sentence
 end  
