@@ -15,8 +15,13 @@
 # end 
 
 def reverse_each_word(sentence)
-  rev_sentence << sentence.split(" ")
-  puts rev_sentence
- rev_sentence.each { |word| word.reverse }
+  split_sentence = []
+  split_sentence << sentence.split(" ")
+  rev_sentence = split_sentence.each { |word| word.reverse }
+  rev_sentence
 end  
+
+
+
+
  
