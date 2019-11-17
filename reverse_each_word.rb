@@ -5,6 +5,7 @@ def reverse_each_word(sent)
   sent_array.each { |word| word.reverse }
   rev_array << sent.reverse
   
+  rev_array.join(" ")
  
 end  
 
