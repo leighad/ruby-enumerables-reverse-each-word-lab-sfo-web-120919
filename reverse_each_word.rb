@@ -6,7 +6,6 @@ def reverse_each_word(sent)
   rev_array << sent.reverse
   
   rev_array.join(" ")
- 
 end  
 
 
