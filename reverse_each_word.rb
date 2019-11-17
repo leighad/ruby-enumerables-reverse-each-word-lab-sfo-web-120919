@@ -5,9 +5,7 @@ def reverse_each_word(sent)
   sent_array.each { |word| word.reverse }
   rev_array << sent.reverse
   
-  rev_sentence
-  # rev_sentence.each  
-  # rev_sentence
+ 
 end  
 
 
