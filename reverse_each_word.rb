@@ -19,8 +19,8 @@ def reverse_each_word(sentence)
   # split_sentence << sentence.split(" ")
   
   new_array = sentence.split(" ")
-  rev_sentence = new_array.each { |word| word.reverse }
-  rev_sentence
+  new_array.each { |word| word.reverse }
+  # rev_sentence
   # rev_sentence.each  
   # rev_sentence
 end  
