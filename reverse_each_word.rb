@@ -14,12 +14,12 @@
 #   return rev_sentence
 # end 
 
-def reverse_each_word(sentence)
+def reverse_each_word(sent)
   # split_sentence = []
   # split_sentence << sentence.split(" ")
   
-  new_array = sentence.split(" ")
-  rev_sentence = new_array.each { |word| word.reverse }
+  sent_array = sentence.split(" ")
+  rev_sentence = sent_array.each { |word| word.reverse }
   rev_sentence
   # rev_sentence.each  
   # rev_sentence
